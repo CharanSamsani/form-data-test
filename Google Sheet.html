@@ -10,10 +10,10 @@
         <div class="container">
             <form method="post" action="" name="contact-form">
                 <h2>Contact Us :</h2>
-                <input type="text" name="your-name" placeholder="Name">
-                <input type="text" name="your-number" placeholder="Number">
-                <input type="email" name="your-email" placeholder="Email">
-                <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                <input type="text" name="your-name" placeholder="Firstname Lastname" maxlength="20" required>
+                <input type="text" name="your-number" placeholder="xxxxx-xxxxx" minlength="10" maxlength="10" required>
+                <input type="email" name="your-email" placeholder="Example@gmail.com" required>
+                <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
                 <div class="submit">
                     <input type="submit" value="Submit" id="submit">
                 </div>
