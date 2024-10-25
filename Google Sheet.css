@@ -89,12 +89,18 @@ input, textarea {
 
 #submit{
 	border: none;
-	background-color: hsla(120, 90%, 45%, 65%);
-	color: white;
+	background-color: hsla(120, 96%, 50%, 0.65);
+	color: black;
+  font-weight: 500;
 	width: 100px;
   height: 50px;
 	margin-top: 10px;
 	border-radius: 50px;
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+
 }
 
 #submit:hover{
